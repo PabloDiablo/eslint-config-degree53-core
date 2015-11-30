@@ -6,7 +6,9 @@ module.exports = {
         "brace-style": [ 2, "1tbs", {
 			"allowSingleLine": false
 		}],
-        "camelcase": [ 2, "always" ],
+        "camelcase": [ 2, {
+			"properties": "always"
+		}],
         "comma-spacing": [ 2, {
 			"after": true,
 			"before": false
@@ -50,7 +52,9 @@ module.exports = {
         "no-restricted-syntax": 0,
         "no-spaced-func": 2,
         "no-ternary": 0,
-        "no-trailing-spaces": 2,
+        "no-trailing-spaces": [ 2, {
+			"skipBlankLines": true
+		}],
         "no-underscore-dangle": 0,
         "no-unneeded-ternary": 2,
         "object-curly-spacing": 0,
