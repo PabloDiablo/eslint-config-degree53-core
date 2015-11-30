@@ -1,10 +1,10 @@
 module.exports = {
 
     "extends": [
-        "./core/best-practices.js",
-        "./core/possible-errors.js",
-        "./core/stylistic-issues.js",
-        "./core/variables.js"
+        "degree53-core/config/best-practices",
+        "degree53-core/config/possible-errors",
+        "degree53-core/config/stylistic-issues",
+        "degree53-core/config/variables"
     ],
 
     "rules": {
