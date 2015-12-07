@@ -46,7 +46,7 @@ module.exports = {
         "no-magic-numbers": [ 2, {
 			"detectObjects": false,
 			"enforceConst": false,
-			"ignore": []
+			"ignore": [ 0 ]
 		}],
         "no-multi-spaces": 2,
         "no-multi-str": 2,
