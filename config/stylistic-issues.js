@@ -60,7 +60,7 @@ module.exports = {
 		"object-curly-spacing": 0,
 		"one-var": 0,
 		"operator-assignment": 0,
-		"operator-linebreak": [ 2, "after" ],
+		"operator-linebreak": 0 // review,
 		"padded-blocks": 0,
 		"quote-props": [ 2, "as-needed", {
 			"keywords": true
