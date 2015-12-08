@@ -65,7 +65,7 @@ module.exports = {
 		"quote-props": [ 2, "as-needed", {
 			"keywords": true
 		}],
-		"quotes": 0, // review
+		"quotes": [2, "single"],
 		"require-jsdoc": 0,
 		"semi-spacing": [ 2, {
 			"after": true,
