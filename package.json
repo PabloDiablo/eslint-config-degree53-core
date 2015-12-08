@@ -1,16 +1,16 @@
 {
-	"name": "eslint-config-degree53-core",
-	"version": "1.0.6",
-	"description": "Core Degree 53 ESLint Config",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Degree53/eslint-config-degree53-core.git"
-	},
-	"author": "Mike Geldard",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/Degree53/eslint-config-degree53-core/issues"
-	},
-	"homepage": "https://github.com/Degree53/eslint-config-degree53-core"
+  "name": "eslint-config-degree53-core",
+  "version": "1.0.7",
+  "description": "Core Degree 53 ESLint Config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Degree53/eslint-config-degree53-core.git"
+  },
+  "author": "Mike Geldard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Degree53/eslint-config-degree53-core/issues"
+  },
+  "homepage": "https://github.com/Degree53/eslint-config-degree53-core"
 }
