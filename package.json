@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-degree53-core",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Core Degree 53 ESLint Config",
   "main": "index.js",
   "repository": {
