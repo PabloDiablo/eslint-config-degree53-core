@@ -22,7 +22,6 @@ module.exports = {
 		"no-case-declarations": 2,
 		"no-div-regex": 0,
 		"no-else-return": 2,
-		"no-empty-label": 2,
 		"no-empty-pattern": 2,
 		"no-eq-null": 2,
 		"no-eval": 2,
@@ -40,7 +39,10 @@ module.exports = {
 		"no-implied-eval": 2,
 		"no-invalid-this": 2,
 		"no-iterator": 2,
-		"no-labels": 2,
+		"no-labels": {
+			"allowLoop": false,
+			"allowSwitch": false
+		},
 		"no-lone-blocks": 2,
 		"no-loop-func": 2,
 		"no-magic-numbers": [ 2, {

@@ -6,9 +6,11 @@ module.exports = {
 		"degree53-core/config/stylistic-issues",
 		"degree53-core/config/variables"
 	],
-
+	
+	"parser": "babel-eslint",
+	
 	"rules": {
-		"strict": [ 2, "global" ]
+		"strict": [ 2, "safe" ]
 	}
 
 };

@@ -28,6 +28,11 @@ module.exports = {
 			"beforeColon": false,
 			"mode": "strict"
 		}],
+		"keyword-spacing": {
+			"after": true,
+			"before": true,
+			"overrides": {}
+		},
 		"linebreak-style": 0, // review
 		"lines-around-comment": 0, // review
 		"max-depth": 0, // review
@@ -73,15 +78,12 @@ module.exports = {
 		}],
 		"semi": [ 2 , "always" ],
 		"sort-vars": 0,
-		"space-after-keywords": [ 2, "always" ],
 		"space-before-blocks": [ 2, "always" ],
 		"space-before-function-paren": [ 2, "never" ],
-		"space-before-keywords": [ 2, "always" ],
 		"space-in-parens": [ 2, "never" ],
 		"space-infix-ops": [ 2, {
 			"int32Hint": false
 		}],
-		"space-return-throw-case": 2,
 		"space-unary-ops": [ 2, {
 			"nonwords": false,
 			"words": true
