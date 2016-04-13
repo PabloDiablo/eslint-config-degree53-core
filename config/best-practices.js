@@ -39,10 +39,10 @@ module.exports = {
 		"no-implied-eval": 2,
 		"no-invalid-this": 2,
 		"no-iterator": 2,
-		"no-labels": {
+		"no-labels": [ 2, {
 			"allowLoop": false,
 			"allowSwitch": false
-		},
+		}],
 		"no-lone-blocks": 2,
 		"no-loop-func": 2,
 		"no-magic-numbers": [ 2, {
@@ -87,7 +87,7 @@ module.exports = {
 		"no-with": 2,
 		"radix": 0,
 		"vars-on-top": 0,
-		"wrap-iife": [2, "inside"],
+		"wrap-iife": [ 2, "inside"],
 		"yoda": [ 2, "never" ]
 	}
 };
