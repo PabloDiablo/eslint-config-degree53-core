@@ -27,7 +27,7 @@ module.exports = {
 		"no-unexpected-multiline": 2,
 		"no-unreachable": 2,
 		"use-isnan": 2,
-		"valid-jsdoc": [ 2 {
+		"valid-jsdoc": [ 2, {
 			"requireReturn": false,
 			"requireParamDescription": true,
 			"requireReturnType": true,
