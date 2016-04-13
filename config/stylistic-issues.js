@@ -28,11 +28,11 @@ module.exports = {
 			"beforeColon": false,
 			"mode": "strict"
 		}],
-		"keyword-spacing": {
+		"keyword-spacing": [ 2, {
 			"after": true,
 			"before": true,
 			"overrides": {}
-		},
+		}],
 		"linebreak-style": 0, // review
 		"lines-around-comment": 0, // review
 		"max-depth": 0, // review
@@ -70,7 +70,7 @@ module.exports = {
 		"quote-props": [ 2, "as-needed", {
 			"keywords": true
 		}],
-		"quotes": [2, "single"],
+		"quotes": [ 2, "single"],
 		"require-jsdoc": 0,
 		"semi-spacing": [ 2, {
 			"after": true,
