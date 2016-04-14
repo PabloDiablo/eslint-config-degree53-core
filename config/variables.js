@@ -7,7 +7,7 @@ module.exports = {
 		"no-label-var": 2,
 		"no-restricted-globals": 0, // review
 		"no-shadow": [ 2, { // review
-			"allows": [],
+			"allow": [],
 			"builtinGlobals": true,
 			"hoist": "all"
 		}],
