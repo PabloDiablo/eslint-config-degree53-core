@@ -44,7 +44,7 @@ module.exports = {
 		"max-nested-callbacks": 0, // review
 		"max-params": 0, // review
 		"max-statements": 0, // review
-		"max-statements-per-line": 0 // review
+		"max-statements-per-line": 0, // review
 		"new-cap": [ 2, {
 			"capIsNew": true,
 			"capIsNewExceptions": [],
