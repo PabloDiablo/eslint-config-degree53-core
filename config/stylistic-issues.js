@@ -19,7 +19,7 @@ module.exports = {
 		"eol-last": 0, //review
 		"func-names": 0, // review
 		"func-style": 0,
-		"id-blacklist": [ "data" ],
+		"id-blacklist": [ 2, "data" ],
 		"id-length": 0, // review
 		"id-match": 0, // review
 		"indent": [ 2, "tab", {
