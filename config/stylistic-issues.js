@@ -99,7 +99,7 @@ module.exports = {
 		"sort-imports": [ 2, {
 			"ignoreCase": false,
 			"ignoreMemberSort": false,
-			"memberSyntaxSortOrder": [ "none", "single", "mutiple", "all" ]
+			"memberSyntaxSortOrder": [ "none", "single", "multiple", "all" ]
 		}],
 		"sort-vars": 0,
 		"space-before-blocks": [ 2, "always" ],
