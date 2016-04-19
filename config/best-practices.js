@@ -56,8 +56,9 @@ module.exports = {
 		"no-loop-func": 2,
 		"no-magic-numbers": [ 2, {
 			"detectObjects": false,
-			"enforceConst": false,
-			"ignore": [ 0, 1 ]
+			"enforceConst": true,
+			"ignore": [ 0, 1 ],
+			"ignoreArrayIndexes": true
 		}],
 		"no-multi-spaces": [ 2, {
 			"exceptions": {}
