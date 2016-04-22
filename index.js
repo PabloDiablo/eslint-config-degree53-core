@@ -7,7 +7,11 @@ module.exports = {
 		"degree53-core/config/variables"
 	],
 	
-	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"globalReturn": false
+		}
+	},
 	
 	"rules": {
 		"strict": [ 2, "safe" ]
