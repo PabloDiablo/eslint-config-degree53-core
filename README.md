@@ -12,4 +12,6 @@ Your `.eslintrc` file should be at the same level as your `./node_modules` and s
 }
 ```
 
+***NOTE:*** If you are using `babel`, you will also need to install `babel-eslint`.
+
 For an explanation of the rules please see the [ESLint documentation](http://eslint.org/docs/rules/).
