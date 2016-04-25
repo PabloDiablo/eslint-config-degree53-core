@@ -7,7 +7,7 @@ module.exports = {
 		}],
 		"array-callback-return": 0,
 		"block-scoped-var": 2,
-		"complexity": [ 2, 3 ],
+		"complexity": [ 1, 3 ],
 		"consistent-return": 2,
 		"curly": [ 2, "all" ],
 		"default-case": 2,
