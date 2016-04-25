@@ -96,11 +96,7 @@ module.exports = {
 			"after": true,
 			"before": false
 		}],
-		"sort-imports": [ 2, {
-			"ignoreCase": false,
-			"ignoreMemberSort": false,
-			"memberSyntaxSortOrder": [ "none", "single", "multiple", "all" ]
-		}],
+		"sort-imports": 0,
 		"sort-vars": 0,
 		"space-before-blocks": [ 2, "always" ],
 		"space-before-function-paren": [ 2, "always" ], // review
