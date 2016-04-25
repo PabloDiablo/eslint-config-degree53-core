@@ -9,7 +9,7 @@ module.exports = {
 		"no-shadow": [ 2, { // review
 			"allow": [],
 			"builtinGlobals": true,
-			"hoist": "functions"
+			"hoist": "all"
 		}],
 		"no-shadow-restricted-names": 2,
 		"no-undef": [ 2, {
