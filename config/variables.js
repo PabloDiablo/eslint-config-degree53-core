@@ -18,7 +18,7 @@ module.exports = {
 		"no-undef-init": 2,
 		"no-undefined": 2,
 		"no-unused-vars": [ 2, {
-			"args": "after-used",
+			"args": "none",
 			"argsIgnorePattern": "",
 			"caughtErrors": "none",
 			"caughtErrorsIgnorePattern": "",
