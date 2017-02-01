@@ -65,7 +65,7 @@ module.exports = {
 		"no-lonely-if": 2,
 		"no-mixed-spaces-and-tabs": 2,
 		"no-multiple-empty-lines": 0, // review
-		"no-negated-condition": 2,
+		"no-negated-condition": 0,
 		"no-nested-ternary": 2,
 		"no-new-object": 2,
 		"no-plusplus": 0,
@@ -99,7 +99,11 @@ module.exports = {
 		"sort-imports": 0,
 		"sort-vars": 0,
 		"space-before-blocks": [ 2, "always" ],
-		"space-before-function-paren": [ 2, "always" ], // review
+		"space-before-function-paren": ["error", {
+			"anonymous": "always",
+			"named": "never",
+			"asyncArrow": "always"
+		    }],
 		"space-in-parens": [ 2, "never" ],
 		"space-infix-ops": [ 2, {
 			"int32Hint": false
